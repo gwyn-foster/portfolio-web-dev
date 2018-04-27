@@ -110,6 +110,16 @@
 	<!-- END .header -->
 	<div id="fh5co-main">
 		<div class="container">
+			<form role="search" method="get" class="form-search" action="{% routablepageurl poc_index_page "post_search" %}" method="get">
+                <div class="input-group">
+                    <input type="text" class="form-control search-query" name="q" placeholder="Search&hellip;" title="Search for:" />
+                    <span class="input-group-btn">
+          				<button type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="Search">
+            				<span class="glyphicon glyphicon-search"></span>
+                    	</button>
+                    </span>
+                </div>
+            </form>
 			{% if search_term %}
 
 					<a class="navbar-brand-little">Showing all results for <span>{{ search_type }}:</span><span class="uppercase"> {{ search_term }}</span></a>

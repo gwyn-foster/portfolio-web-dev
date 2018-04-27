@@ -125,6 +125,15 @@ class PocIndexPage(RoutablePageMixin, Page):
         print (self.posts)
         return Page.serve(self, request, *args, **kwargs)
 
+    @route(r'^search/$')
+    def post_search(self, request, *args, **kwargs):
+        search_query = request.GET.get('q', None)
+        self.posts = self.get_posts()
+        if search_query:
+            self.posts = self.posts.filter(body__contains=search_query)
+            self.search_term = search_query
+            self.search_type = 'search'
+        return Page.serve(self, request, *args, **kwargs)    
 
 
 class PocPage(Page):
