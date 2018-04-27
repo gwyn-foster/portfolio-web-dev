@@ -21,10 +21,16 @@
      font-weight: normal;
      font-style: normal;
  }
+ @font-face {
+     font-family: 'Raleway', sans-serif;
+     src: url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i');
+     font-weight: normal;
+     font-style: normal;
+ }
 
 body {
   padding-top: 54px;
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 @media (min-width: 992px) {
