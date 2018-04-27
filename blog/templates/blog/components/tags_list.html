@@ -1,0 +1,11 @@
+{% load i18n wagtailroutablepage_tags %}
+
+
+
+        {% for tag in tags_list %}
+            <a href="{% routablepageurl poc_index_page "post_by_tag" tag.slug %}">
+                <span class="label label-default">{{ tag }}</span>
+            </a>
+        {% empty %}
+            {% trans 'No tags yet' %}
+        {% endfor %}

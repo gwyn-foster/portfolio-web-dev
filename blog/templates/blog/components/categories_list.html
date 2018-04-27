@@ -1,0 +1,12 @@
+{% load i18n wagtailroutablepage_tags %}
+
+
+
+  {% for category in categories_list %}
+
+     <a href="{% routablepageurl poc_index_page "post_by_category" category.slug %}">
+        <i class="icon-folder-open icon-large"></i>
+        {{ category.name }}, 
+     </a>
+
+  {% endfor %}
