@@ -8070,7 +8070,7 @@ pre {
 .form-control:hover, .form-control:focus, .form-control:active {
   outline: none;
   box-shadow: none !important;
-  border: 2px solid #EF5353;
+  border: 2px solid #262;
 }
 
 .fh5co-social {
