@@ -59,6 +59,7 @@
 
 .uppercase {
     text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
 }
 .card {
   height: 100%;
@@ -162,7 +163,7 @@ body {
     border: solid black 3px;
 }
 .wwd-description {
-    font-size: 4rem;
+    font-size: 200%;
 }
 article,
 aside,
@@ -229,6 +230,7 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  font-family: 'Raleway', sans-serif;
 
 }
 
@@ -239,8 +241,12 @@ mark {
 
 small {
   font-size: 80%;
+  font-family: 'Raleway', sans-serif;
 }
 
+.bigger {
+    font-size: 200%;
+}
 sub,
 sup {
   font-size: 75%;
@@ -1660,7 +1666,7 @@ hr {
 
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: inherit;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;

@@ -7211,7 +7211,14 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .mt-4, .my-4 {
-    margin-top: 1.5rem!important
+    margin-top: 1.5rem!important;
+    font-family: 'Raleway', sans-serif;
+}
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .mr-4, .mx-4 {
@@ -7219,7 +7226,8 @@ a.bg-dark:focus, a.bg-dark:hover, button.bg-dark:focus, button.bg-dark:hover {
 }
 
 .mb-4, .my-4 {
-    margin-bottom: 1.5rem!important
+    margin-bottom: 1.5rem!important;
+    font-family: 'Raleway', sans-serif;
 }
 
 .ml-4, .mx-4 {

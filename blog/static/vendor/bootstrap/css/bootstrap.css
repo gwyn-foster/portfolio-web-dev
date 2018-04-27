@@ -42,7 +42,7 @@
 }
 
 html {
-  font-family: 'helsinkiregular';
+  font-family: 'Raleway', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -57,10 +57,15 @@ html {
 article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
-
+@font-face {
+    font-family: 'Raleway', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
   margin: 0;
-  font-family: 'helsinkiregular';
+  font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -7508,6 +7513,7 @@ button.bg-dark:focus {
 .mt-4,
 .my-4 {
   margin-top: 1.5rem !important;
+  font-family: 'Raleway', sans-serif;
 }
 
 .mr-4,
@@ -7518,6 +7524,7 @@ button.bg-dark:focus {
 .mb-4,
 .my-4 {
   margin-bottom: 1.5rem !important;
+  font-family: 'Raleway', sans-serif;
 }
 
 .ml-4,
